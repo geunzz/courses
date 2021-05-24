@@ -121,6 +121,6 @@ while cal_num > 0:
     elif (calculation[0] == 'P') or (calculation[0] == 'p'):
         s.print_without_space()
     else:
-        print('잘못된 입력입니다.')
+        print('wrong input.')
         break
     cal_num = cal_num - 1
